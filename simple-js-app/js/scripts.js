@@ -1,12 +1,20 @@
-let myName = 'Bob';
-document.write(myName);
-myName = 'Jhon doe';
-document.write(myName);
+let pokemonList = [];
 
-let simpleAdittion = 2 + 2;
-document.write(simpleAdittion);
+let pokemon1 = {
+   name: 'Bulbasaur',
+   height: 7,
+   types: ['grass', 'poison']
+};
 
-let size = 100;
-let doubleSize = size * 2;
-let minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize);
+
+let pokemon2 = {
+name: 'charmender',
+height: '6',
+types: ['fire']
+};
+
+let pokemon3 = {
+name: 'squirtle',
+height: 5,
+types: ['water']
+};
